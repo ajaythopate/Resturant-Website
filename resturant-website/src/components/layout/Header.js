@@ -1,7 +1,9 @@
 import React from 'react'
-import { AppBar, Box,Toolbar, Typography } from "@mui/material";
+import { AppBar, Box,IconButton,Toolbar, Typography } from "@mui/material";
 import FoodBankIcon from '@mui/icons-material/FoodBank';
 import { Link } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Header = () => {
     return (
@@ -9,6 +11,13 @@ const Header = () => {
             <Box>
                 <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
                     <Toolbar>
+                        <IconButton color="inherit" area-label="open drawer" edge="start" sx={{
+                                 mr: 2,
+                                   display: { sm: "none" },
+                                   }}
+                            >
+                       <MenuIcon />
+                     </IconButton>
 
                         <Typography color={"goldenrod"} variant="h6" component="div"
                             sx={{ flexGrow: 1 }}>
