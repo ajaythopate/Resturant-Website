@@ -20,7 +20,7 @@ const Header = () => {
             <Typography color={"goldenrod"} variant="h6" component="div"
                 sx={{ flexGrow: 1 }}>
                 < FoodBankIcon />
-                My Resturant
+                Prashad Resturant
             </Typography>
 
             <ul className="mobile-navigation">
@@ -57,7 +57,7 @@ const Header = () => {
                         <Typography color={"goldenrod"} variant="h6" component="div"
                             sx={{ flexGrow: 1 }}>
                             < FoodBankIcon />
-                            Food Restaurant
+                            Prashad Restaurant
                         </Typography>
                         <Box sx={{ display: { xs: "none", sm: "block" } }}>
                             <ul className="navigation-menu">
