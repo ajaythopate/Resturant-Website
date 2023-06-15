@@ -4,28 +4,28 @@ import { Box, Typography } from "@mui/material";
 
 const About = () => {
   return (
-      <Layout>
+    <Layout>
       <Box sx={{
         my: 20,
         textAlign: "center",
         "& h4": {
-          fontWeight:"bold",
+          fontWeight: "bold",
           my: 2,
-          fontsize:"2rem",
+          fontsize: "2rem",
         }
       }}>
         <Typography variant="h4">
           Welcome To My Restaurant
-         </Typography>
+        </Typography>
         <p>
-          We are a CASAMATA restaurant in Los Angeles' Arts District serving contemporary cuisine rooted in Mexican culture. 
+          We are a CASAMATA restaurant in Los Angeles' Arts District serving contemporary cuisine rooted in Mexican culture.
           Inspired by the Pacific coasts' culinary traditions, while celebrating seasonal Californian produce.
 
           Damian's beverage program focuses on artisanal spirits and mirrors its cuisine, letting the high quality ingredients shine.
 
-</p>
+        </p>
       </Box>
-      
+
     </Layout>
   );
 };
