@@ -57,7 +57,7 @@ const Header = () => {
                         <Typography color={"goldenrod"} variant="h6" component="div"
                             sx={{ flexGrow: 1 }}>
                             < FoodBankIcon />
-                            Prashad Restaurant
+                            PRASHAD Restaurant
                         </Typography>
                         <Box sx={{ display: { xs: "none", sm: "block" } }}>
                             <ul className="navigation-menu">
