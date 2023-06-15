@@ -17,7 +17,7 @@ const Header = () => {
 
     const drawer = (
         <Box onClick={handelDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Typography color={"goldenrod"} variant="h6" component="div"
+            <Typography color={"goldenrod"}  variant="h6" component="div"
                 sx={{ flexGrow: 1 }}>
                 < FoodBankIcon />
                 Prashad Resturant
