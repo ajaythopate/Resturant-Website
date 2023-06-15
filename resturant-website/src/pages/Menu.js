@@ -6,7 +6,7 @@ import { Box, Card, CardActionArea, CardMedia, CardContent, Typography } from '@
 const Menu = () => {
     return (
         <Layout>
-            <Box sx={{ display: "flex", flexwrap: "Wrap" , justifyContent:"center" }}>
+            <Box sx={{ display: "flex", flexwrap: "Wrap", justifyContent: "center" }}>
                 {MenuList.map((menu) => (
                     <Card sx={{ maxWidth: "390px", display: "flex", m: 2 }}>
                         <CardActionArea>
